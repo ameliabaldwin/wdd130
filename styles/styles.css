@@ -10,7 +10,7 @@ main img {
     background-color: #227c7c;
     text-align: center;
     color: #ffffff;
-    float: Right;
+    float:right;
 }
 main p {
     width: 20rem;
@@ -38,7 +38,7 @@ html{
     margin: 0;
     box-sizing: border-box;
 }
-/* Class Selectors */
+/*Class Selectors*/
  .box{
     padding: 1rem;
     width: 15rem;
