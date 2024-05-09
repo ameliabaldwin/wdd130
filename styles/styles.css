@@ -10,18 +10,10 @@ main img {
     background-color: #227c7c;
     text-align: center;
     color: #ffffff;
+    float: Right;
 }
 main p {
     width: 20rem;
-    margin: 1rem;
-    border: 4px solid rgba(0, 0, 0, 0.589);
-    padding: 1rem;
-    background-color: #227c7c;
-    text-align: center;
-    color: #ffffff;
-}
-aside{
-    width: 40rem;
     margin: 1rem;
     border: 4px solid rgba(0, 0, 0, 0.589);
     padding: 1rem;
@@ -40,4 +32,39 @@ footer {
 }
 html{
     background-color:#33a8ac;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Class selectors */
+ .box{
+    padding: 1rem;
+    width: 15rem;
+    margin: 1rem;
+    border: 1px solid rgba(6, 12, 21, 0.733);
+    background-color: #518990;
+    color: #1b4848;
+    
+}
+/* I made another class because my <ul> was extending further then it should*/
+.box2{
+    padding: 1rem;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(6, 12, 21, 0.733);
+    background-color: #518990;
+    color: #1b4848;
+    
+}
+aside{
+    width: 20rem;
+    text-align: center;
+    position: relative;
+}
+aside h2{
+    position: absolute;
+    top: 40px;
+    left: 100px;
 }
