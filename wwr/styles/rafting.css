@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --primary-color: #022f40;
+    --secondary-color: #0090C1;
+    --accent1-color: #046E8F;
+    --accent2-color: #38AECC;
+    --additional-accent-color: 183446;
+    --heading-font: "Bebas Neue", sans-serif;
+    --default-font: "Bebas Neue", sans-serif;
+    --nav-background-color: #0090C1;
+    --nav-link-color: #022f40;
+    --nav-hover-link-color: #32729b;
+    --nav-hover-background-color: #38aecc;
+}
