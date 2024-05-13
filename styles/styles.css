@@ -1,37 +1,39 @@
 main{
-    max-width: 0;
-    
+    max-width: 840;
+    border: 4px solid rgba(0, 0, 0, 0.589);
+    padding: 1rem;
+    background-color: #227c7c;
+    color: #ffffff;
 }
 main img {
-    width: 20rem;
-    margin: 1rem;
+    width: 225px;
     border: 4px solid rgba(0, 0, 0, 0.589);
     padding: 1rem;
     background-color: #227c7c;
     text-align: center;
-    color: #ffffff;
     float: right;
-}
-main p {
-    width: 20rem;
-    margin: 1rem;
-    border: 4px solid rgba(0, 0, 0, 0.589);
-    padding: 1rem;
-    background-color: #227c7c;
-    text-align: center;
     color: #ffffff;
+}
+
+p{ 
+    padding: 0;
 }
 aside img {
-    width: 200px;
-    height: auto;
+    width: 275px;
+    height: 200px;
+
 }
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 4px solid #000;
     text-align: center;
+    position: relative;
+    top: 50px;
+    background-color:#1b4848;
+    color: white;
 }
 html{
-    background-color:#33a8ac;
+    background-color:#4acbc0;
 }
 * {
     padding: 0;
@@ -41,30 +43,52 @@ html{
 /*Class Selectors*/
  .box{
     padding: 1rem;
-    width: 15rem;
     margin: 1rem;
-    border: 1px solid rgba(6, 12, 21, 0.733);
+    border: 4px solid rgba(6, 12, 21, 0.733);
     background-color: #518990;
     color: #1b4848;
-    
-}
-/* I made another class because my <ul> was extending further then it should*/
-.box2{
-    padding: 1rem;
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(6, 12, 21, 0.733);
-    background-color: #518990;
-    color: #1b4848;
-    
 }
 aside{
-    width: 20rem;
+    width: 20em;
     text-align: center;
-    position: relative;
 }
 aside h2{
     position: absolute;
     top: 40px;
     left: 100px;
+}
+
+*header, footer, .grid{
+    margin:0 auto;
+    max-width:840px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #127372;
+    padding: 1rem;
+    align-items:center;
+    border-bottom: 5px solid #000;
+}
+nav a{
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
