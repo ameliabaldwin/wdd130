@@ -1,5 +1,5 @@
 main{
-    max-width: 840px;
+    max-width: 2040px;
     border: 4px solid rgba(0, 0, 0, 0.589);
     padding: 1rem;
     background-color: #227c7c;
@@ -48,6 +48,9 @@ html{
     background-color: #518990;
     color: #1b4848;
 }
+body{
+    max-width: 2040px;
+}
 aside{
     width: 20em;
     text-align: center;
@@ -60,7 +63,7 @@ aside h2{
 
 header, footer, .grid{
     margin:0 auto;
-    max-width: 840px;
+    max-width: 2040px;
 }
 nav{
     display: flex;
