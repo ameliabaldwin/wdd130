@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Poetsen+One&display=swap');
+:root {
+    --header-font: "Danfo", serif;
+    --default-font: "Poetsen One", sans-serif;
+}
+
+fieldset{
+    background-color: #391111;
+    color: #fff;
+    border: 5px solid hsl(0, 24%, 45%);
+    border-radius: 2em;
+    font-family: var(--default-font);
+}
+h1{
+    font-family: var(--header-font);
+    text-align:center;
+    border-bottom: 5px solid #000000;
+}
+button{
+    padding: 1em;
+    color:#fff;
+    background-color: #8b3b3b;
+    border: 1px solid #8b3b3b;
+    border-radius: 0.5em;
+}
+button:hover{
+    background-color: #aa4949;
+}
+.questions{
+    display:grid;
+    justify-content: center;
+}
