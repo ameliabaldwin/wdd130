@@ -20,6 +20,7 @@
         </header>
         <main>
             <div class="hero">
+                <h1></h1>
                 <article>
                     <h2>Contact information</h2>
                     <p class="raft_hero">address: 841 Robert C Byrd Dr, Crab Orchard, WV 25827 <br>phone number:(778)-330-2389 <br>email:Quad_Raft@gmail.com   
@@ -46,9 +47,9 @@
                     <fieldset>
                         <legend>Request Service</legend>
                         <label for="username">Username</label><br>
-                        <input type="text" id="username" name="username"><br>
+                        <input type="text" id="username" name="username" placeholder="Johndoe"><br>
                         <label for="useremail">Email</label><br>
-                        <input type="text" id="useremail" name="useremail"><br>
+                        <input type="text" id="useremail" name="useremail" placeholder="johndoe@gmail.com"><br>
                         <label>I am asking about a: </label><br>
                         <input type="radio" id="General_Inquiry" value="General_Inquiry" name="purpose">
                         <label for="General_Inquiry">General Inquiry</label><br>
@@ -56,9 +57,11 @@
                         <label for="Reservation_Question">Reservation Question</label><br>
                         <input type="radio" id="Website_Suggestion" value="General_Inquiry" name="purpose">
                         <label for="Website_Suggestion">Website Suggestion</label><br>
+                        <label for="question">Type your (question/suggestion/inquiry) here</label>
+                        <textarea id="question" name="question" placeholder="Click here to start typing"></textarea>
                         <input type="checkbox" id="subscribe" name="subscirbe">
                         <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
-                        <button>Submit</button>
+                        <button type="submit">Submit</button>
                     </fieldset>
                 </form>
             </div>
