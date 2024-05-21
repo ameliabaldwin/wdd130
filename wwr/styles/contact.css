@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --primary-color: #227c7c;
+    --secondary-color: #0090C1;
+    --accent1-color: #127372;
+    --accent2-color: #38AECC;
+    --additional-accent-color: 183446;
+    --heading-font: "Bebas Neue", sans-serif;
+    --default-font: "Bebas Neue", sans-serif;
+    --nav-background-color: #0090C1;
+    --nav-link-color: #022f40;
+    --nav-hover-link-color: #32729b;
+    --nav-hover-background-color: #38aecc;
+}
+html, body, main{
+    max-width: 1040px;
+}
+main{
+    display:grid;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow:column;
+    clear:both;
+    position:relative;
+    left: 125px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p{
+    border: 4px solid #1b4848;
+    font-family: var(--heading-font);
+    color: #ffff;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+header nav{
+    display:grid;
+    grid-template-columns: 6fr 6fr 6fr 6fr;
+    width: 39rem;
+    height: 0.2rem;
+    font-family: var(--heading-font);
+    text-decoration: none;
+    position:relative;
+    top: 60px;
+    left: 100px;
+}
+header nav a{
+    color: white;
+}
+header{
+    display:flex;
+    background-color: var(--accent1-color);
+    margin: 5px;
+    width:67rem;
+    justify-content:center;
+    height: 200px;
+    border: 4px solid #1b4848;
+    position:relative;
+    left: 70px;
+}
+html{
+    background-color:#4acbc0;
+}
+footer{
+    text-align: center;
+    padding: 0.5rem;
+    height: 10%;
+    position:relative;
+    left: 70px;
+    width: 67rem;
+    top: 100px;
+}
+fieldset{
+    font-family:var(--default-font);
+    background-color:#127372;
+    border: 5px solid #1b4848;
+    padding: 3rem;
+    font-size: 20px;
+    color: #fff;
+    display:grid;
+    justify-content:center;
+}
+ul{
+    display:flex;
+    justify-content:center;
+}
+button{
+    background-color:#4b9998;
+    border:#022f40 5px solid;
+    border-radius: 2rem;
+}
+button:hover{
+    background-color:#6cd1cf;
+}
+/*class selectors*/
+.top_links{
+    font-size:larger;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+    border: 4px solid rgba(0, 0, 0, 0.589);
+    text-align:center;
+
+}
+.socials{
+    display:flex;
+    justify-content:space-between;
+    padding: 1rem;
+    float:right;
+    position:relative;
+    top:-52px;
+}
+.hero{
+    display:flex;
+    display:grid
+}
+
+.hero h1{
+    text-align:center;
+    justify-content:center;
+}
+.hero p{
+    display: grid;
+    display:flex;
+    width:1000px;
+    height: 30rem;
+    flex-flow: column;
+}
+.employees figure{
+    border: 4px solid #1b4848;
+    font-family: var(--heading-font);
+    color: #ffff;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
