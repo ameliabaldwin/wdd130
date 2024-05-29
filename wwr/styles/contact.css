@@ -155,13 +155,14 @@ button:hover{
 }
 .trips{
     display:flex;
+
 }
 .trippics{
     display:grid;
     display:flex;
-    position:relative;
-    top:-350px;
-    left: 0px;
+    position:absolute;
+    top:150px;
+    left: -100px;
 }
 .pic{
     width:300px;
@@ -238,4 +239,5 @@ button:hover{
     top:100px;
     margin: 4rem
 }
+
 
