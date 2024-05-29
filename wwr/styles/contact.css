@@ -135,3 +135,24 @@ button:hover{
     padding: 1rem;
     background-color: var(--primary-color);
 }
+.trip{
+    width:300px;
+    height:400px;
+    margin: 2rem;
+    text-align:center;
+}
+.trips{
+    display:flex;
+}
+.trippics{
+    display:grid;
+    display:flex;
+    position:relative;
+    top:-350px;
+    left: 0px;
+}
+.pic{
+    width:300px;
+    margin: 3.4rem;
+}
+
