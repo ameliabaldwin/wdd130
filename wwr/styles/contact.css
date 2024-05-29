@@ -169,4 +169,61 @@ button:hover{
 .wireframe:hover{
     color: #b6b4b4;
 }
+.welcome{
+    display:flex;
+    display:grid;
+    justify-content: flex-start;
+}
+.welcome img{
+    width:600px;
+    height:500px;
+    position:relative;
+    left: -200px;
+    top:60px;
+}
+.welcome p{
+    height:500px;
+    position:absolute;
+    left: -100px;
+    text-align:left;
+}
+.subscribe{
+    position:absolute;
+    top:179px;
+    left:800px;
+    width:200px;
+}
+.compellingstuff{
+    position:absolute;
+    top:15px;
+    left:790px;
+    width: 250px;
+    height:90px;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border: 4px solid rgba(0, 0, 0, 0.589);
+    font-size:40px;
+    text-align:center;
+    font-family:var(--default-font);
+}
+.compellingstuff a{
+    color: white;
+}
+.compellingstuff a:hover{
+    color: #b6b4b4;
+}
+.examples{
+    display:grid;
+    display:flex;
+}
+.examples img{
+    border: 4px solid rgba(0, 0, 0, 0.589);
+    display:flex;
+    display:grid;
+    width:400px;
+    justify-content:space-between;
+    position:relative;
+    top:100px;
+    margin: 4rem
+}
 
