@@ -155,4 +155,18 @@ button:hover{
     width:300px;
     margin: 3.4rem;
 }
+.wireframe{
+    display:flex;
+    justify-content:space-between;
+    padding: 1rem;
+    float:right;
+    position:relative;
+    top:-72px;
+    font-family:var(--default-font);
+    text-decoration:none;
+    color: white;
+}
+.wireframe:hover{
+    color: #b6b4b4;
+}
 
